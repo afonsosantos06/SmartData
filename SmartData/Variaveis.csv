@@ -1,0 +1,24 @@
+﻿Parâmetro;Valor;Descrição
+Δ Preço (%);50;Variação preço vs 2024
+Δ Horas (%);0;Ajuste de horas/capacidade
+Acessibilidade (%);5;Procura ganha
+Exclusividade (%);3;Procura perdida
+Elasticidade preço (E_p);-1,1;Sensibilidade procura
+Coef. economias de escala;0,8;Ganho por Δ Horas
+Coef. rendimentos decrescentes;0,3;Penalização quadrática
+Capacidade base (unid./mês);12500;Limite físico
+Margem mínima sobre custo (%);5;Preço >= custo*(1+margem)
+Invest Marketing (% lucro 2024);10;Aumenta procura
+Invest IA (% lucro 2024);10;Reduz custo variável
+Invest Formação (% lucro 2024);10;Aumenta capacidade
+Eficiência Marketing (α);0,5;Impacto procura
+Decresc. Marketing (β);0,3;Penalização quadrática
+Eficiência IA (α);0,4;Redução custo var
+Limite redução custo var (%);40;Máx redução
+Eficiência Formação (α);0,4;Capacidade ↑
+Limite extra capacidade (%);20;Máx aumento
+Cabaz A ROI (%);5;Conservador
+Cabaz B ROI (%);8;Moderado
+Cabaz C ROI (%);12;Arriscado
+Sazonalidade pico (%);12;Jun/Dez
+Sazonalidade baixa (%);-8;Fev/Set
